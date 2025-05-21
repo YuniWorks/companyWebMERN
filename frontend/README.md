@@ -1,12 +1,17 @@
-# React + Vite
+이 프로젝트는 인프런 강의 "React, Node.js, MongoDB로 만드는 나만의 회사 웹 사이트" 에서 제공된 코드를 기반으로 수정 및 확장한 버전입니다. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 강의는 MERN 스택(MongoDB, Express.js, React, Node.js)을 활용하여 실제 회사 웹사이트를 개발하는 과정을 다루고 있습니다. 회사 소개, 서비스, 포트폴리오, 문의하기 등 웹사이트 구성과 관리자 페이지를 통한 콘텐츠 관리, MongoDB 기반의 동적 데이터 처리 기능을 포함합니다.
 
-Currently, two official plugins are available:
+### 백엔드 실행 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+cd backend
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
+### 프론트엔드 실행
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd frontend
+npm install
+npm start
